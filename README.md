@@ -1,2 +1,12 @@
-# docker-influxdb-grafana-telegraf
-Start Influxdb Grafana and Telegraf in Docker
+# docker-influxdb-grafana-telegraf-rabbitmq
+Start Influxdb Grafana Telegraf and RabbitMQ in Docker
+
+# Start
+
+```
+docker-compose up
+```
+
+![]
+
+
