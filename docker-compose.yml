@@ -24,6 +24,9 @@ services:
     - "3000:3000"
   links:
     - influxdb
+  volumes:
+    - grafana:/var/lib/grafana
 
 volumes:
  influxdb:
+ grafana:
