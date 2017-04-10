@@ -1,6 +1,18 @@
 version: '2'
 services:
 
+ rabbitmq:
+  image: marcelmaatkamp/rabbitmq-mqtt-ldap
+  restart: always
+  hostname: rabbitmq
+  ports:
+   - 5671:5671
+   - 1883:1883
+  environment:
+   - RABBITMQ_NODENAME=rabbitmq@rabbitmq
+  volumes:
+   - rabbitmq:/var/lib/rabbitmq/mnesia
+
  influxdb:
   image: influxdb:latest
   volumes:
@@ -30,3 +42,4 @@ services:
 volumes:
  influxdb:
  grafana:
+ rabbitmq:
