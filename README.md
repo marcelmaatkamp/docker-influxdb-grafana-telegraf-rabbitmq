@@ -18,9 +18,9 @@ docker-compose up
 
 # Add an Influxdb datasource
 
-![Screen%20Shot%202017-04-10%20at%2014.28.34.png](Screen%20Shot%202017-04-10%20at%2014.28.34.png =250x)
+![Screen%20Shot%202017-04-10%20at%2014.28.34.png](Screen%20Shot%202017-04-10%20at%2014.28.34.png)
 
 # Screenshot of measurements
 
-![Screen%20Shot%202017-04-10%20at%2014.43.41.png](Screen%20Shot%202017-04-10%20at%2014.43.41.png =250x)
+![Screen%20Shot%202017-04-10%20at%2014.43.41.png](Screen%20Shot%202017-04-10%20at%2014.43.41.png)
 
