@@ -1,5 +1,6 @@
 # docker-influxdb-grafana-telegraf-rabbitmq
-Start Influxdb Grafana Telegraf and RabbitMQ in Docker
+
+Start Influxdb Grafana Telegraf and RabbitMQ in Docker and starts graphing messages sent to amq.topic with routing key 'sensor/+/*'.
 
 # Start
 
