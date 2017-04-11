@@ -2,7 +2,9 @@
 
 Start Influxdb Grafana Telegraf and RabbitMQ in Docker
 
-Starts graphing messages sent to amq.topic with routing key 'sensor/+/#' which can be changed in conf/telegraf/telegraf.conf. Data is stored in InfluxDB in the database 'telegraf' and table 'mqtt_consumer'. An example query to display the measurements in a Dashboard in Grafana looks like this:
+Starts graphing messages sent to amq.topic with routing key 'sensor/+/#' which can be changed in conf/telegraf/telegraf.conf. Data is stored in InfluxDB in the database 'telegraf' and table 'mqtt_consumer'. 
+
+An example query to display the measurements in a Grafana Dashboard looks like this:
 
 ```
 SELECT "payload_value" FROM "mqtt_consumer" WHERE "topic" = 'sensor/0022/1' AND $timeFilter
